@@ -19,7 +19,7 @@ finally:
 
 # For individual line 
 for i in file_contents:
-    i = i.rstrip("\n") #Removing the \n
+    i = i.rstrip("\n") # Removing the \n
     i = i.split(" ") # Splitting with white line
     # Pushing to stack 
     for j in i:
